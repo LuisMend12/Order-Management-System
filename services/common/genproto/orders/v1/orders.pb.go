@@ -4,7 +4,7 @@
 // 	protoc        v7.35.1
 // source: orders/v1/orders.proto
 
-package ordersv1
+package orders
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -352,7 +352,7 @@ const file_orders_v1_orders_proto_rawDesc = "" +
 	"\x11GetOrdersResponse\x12(\n" +
 	"\x06orders\x18\x01 \x03(\v2\x10.orders.v1.OrderR\x06orders2^\n" +
 	"\fOrderService\x12N\n" +
-	"\vCreateOrder\x12\x1d.orders.v1.CreateOrderRequest\x1a\x1e.orders.v1.CreateOrderResponse\"\x00BYZWgithub.com/ArdiDev1/Order-Management-System/services/common/genproto/orders/v1;ordersv1b\x06proto3"
+	"\vCreateOrder\x12\x1d.orders.v1.CreateOrderRequest\x1a\x1e.orders.v1.CreateOrderResponse\"\x00BWZUgithub.com/ArdiDev1/Order-Management-System/services/common/genproto/orders/v1;ordersb\x06proto3"
 
 var (
 	file_orders_v1_orders_proto_rawDescOnce sync.Once
