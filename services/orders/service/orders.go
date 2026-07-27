@@ -17,6 +17,7 @@ func NewOrderService() *OrderService {
 }
 
 func (s *OrderService) CreateOrder(ctx context.Context, order *orders.Order) error {
+	order.OrderId = int32(len(ordersDb) + 1)
 	ordersDb = append(ordersDb, order)
 	return nil
 }
